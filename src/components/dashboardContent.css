@@ -1,0 +1,35 @@
+main {
+  display: flex;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  color: #393739;
+  background-color: #f0f0f0;
+  padding: 20px;
+  overflow: hidden;
+  transition: all 0.35s ease-in-out;
+}
+
+/* Content Styling */
+.contentWidth {
+  width: 100%;
+  max-width: 99%;
+  margin: 0 auto;
+}
+
+.dashboard-content {
+  box-shadow: 0 2px 5px rgba(155, 89, 182, 0.4);
+  border-radius: 15px;
+}
+
+.dashboard-content i {
+  font-size: 1.6rem;
+}
+
+.dashboard-content:hover {
+  box-shadow: 0 2px 5px rgba(155, 89, 182, 0.8);
+  transform: scale(1.01);
+  cursor: pointer;
+}
